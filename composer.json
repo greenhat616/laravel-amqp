@@ -1,5 +1,5 @@
 {
-  "name": "bschmitt/laravel-amqp",
+  "name": "greenhat616/laravel-amqp",
   "description": "AMQP wrapper for Laravel and Lumen to publish and consume messages",
   "keywords": [
     "laravel",
@@ -26,8 +26,8 @@
   ],
   "require": {
     "php": ">=7.0",
-    "php-amqplib/php-amqplib": ">=2.9",
-    "illuminate/support": ">=v5.5.28"
+    "illuminate/support": ">=v5.5.28",
+    "greenhat616/php-amqplib": "^v2.12.0"
   },
   "require-dev": {
     "phpunit/phpunit": "~4.0",
